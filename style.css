@@ -42,7 +42,7 @@ section {
     max-width: 800px;
     margin: auto;
     line-height: 1.6;
-    background-color: #fff; /* Witte achtergrond voor de inhoud */
+    background-color: #edc; /* transparante achtergrond voor de inhoud */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Licht schaduweffect */
@@ -60,6 +60,7 @@ blockquote {
     text-align: center;
     text-decoration: none;
     background-color: #ff9800; /* Oranje achtergrond voor de knop */
+    background-image: linear-gradient(#d45c2a,#d45c2a);
     color: #fff; /* Witte tekstkleur voor de knop */
     border-radius: 5px;
     transition: background-color 0.3s;
