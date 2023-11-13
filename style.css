@@ -24,7 +24,9 @@ nav {
     background-color: #e0e0e0; /* Lichtgrijze achtergrond voor het menu */
     overflow: hidden;
 }
-
+img {
+    width: 100%;
+}
 nav a {
     float: left;
     display: block;
