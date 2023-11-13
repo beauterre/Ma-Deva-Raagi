@@ -21,7 +21,7 @@ header h1 {
 }
 
 nav {
-    background-color: #e0e0e0; /* Lichtgrijze achtergrond voor het menu */
+    background-color: rgba(80,60,50,0.3); /* Lichtgrijze achtergrond voor het menu */
     overflow: hidden;
 }
 
