@@ -1,92 +1,70 @@
- <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+/* stijl.css */
 
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
-        section {
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.6;
-        }
+header {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+    background-color: #ffc107; /* Geel achtergrondkleur */
+}
 
-        blockquote {
-            font-style: italic;
-            margin: 20px 0;
-        }
+header h1 {
+    color: #fff; /* Witte tekstkleur */
+}
 
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #3498db;
-            color: #ffffff;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
+nav {
+    background-color: #e0e0e0; /* Lichtgrijze achtergrond voor het menu */
+    overflow: hidden;
+}
 
-        .cta-button:hover {
-            background-color: #2980b9;
-        }
-  /* Voeg je CSS-stijlen hier toe */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+nav a:hover {
+    background-color: #ff9800; /* Oranje achtergrond bij hover */
+    color: #fff; /* Witte tekstkleur bij hover */
+}
 
-        nav {
-            background-color: #3498db;
-            overflow: hidden;
-        }
+section {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    background-color: #fff; /* Witte achtergrond voor de inhoud */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Licht schaduweffect */
+}
 
-        nav a {
-            float: left;
-            display: block;
-            color: #fff;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
 
-        nav a:hover {
-            background-color: #2980b9;
-        }
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff9800; /* Oranje achtergrond voor de knop */
+    color: #fff; /* Witte tekstkleur voor de knop */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
-        section {
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.6;
-        }
-
-        blockquote {
-            font-style: italic;
-            margin: 20px 0;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            background-color: #3498db;
-            color: #ffffff;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .cta-button:hover {
-            background-color: #2980b9;
-        }
+.cta-button:hover {
+    background-color: #f57c00; /* Donkerder oranje achtergrond bij hover */
+}
