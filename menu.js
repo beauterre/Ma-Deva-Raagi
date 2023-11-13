@@ -3,11 +3,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Inhoud van het menu
     const menuItems = [
-        { text: "Home", link: "#home" },
+        { text: "Welkom", link: "#home" },
         { text: "Retraites", link: "#retraites" },
         { text: "Transport", link: "#transport" },
         { text: "Nieuwsbrief", link: "#nieuwsbrief" },
-        { text: "Wekelijkse Meditaties", link: "#meditaties" }
+        { text: "Meditaties", link: "#meditaties" }
     ];
 
     // Maak een nieuw nav-element
