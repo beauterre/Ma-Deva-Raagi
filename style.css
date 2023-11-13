@@ -13,7 +13,7 @@ header {
     margin: 0;
     padding: 50px 0;
     background-color: #ffc107; /* Geel achtergrondkleur */
-    background-image: url(header.jpg);
+    background-image: url(header.png);
 }
 
 header h1 {
