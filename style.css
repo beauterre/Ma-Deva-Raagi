@@ -30,7 +30,7 @@ section img {
 }
 
 nav a {
-    float: left;
+    float: right;
     display: block;
     color: #333;
     text-align: center;
