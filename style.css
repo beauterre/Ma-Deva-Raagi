@@ -21,7 +21,7 @@ header h1 {
 }
 
 nav {
- background: linear-gradient(to right, rgba(224, 224, 224, 1), rgba(224, 224, 224, 0)); /* Gradient van rechts (donkerder) naar links (doorzichtig) */
+ background: linear-gradient(to left, rgba(120, 110, 100, 1), rgba(224, 224, 224, 0)); /* Gradient van rechts (donkerder) naar links (doorzichtig) */
     overflow: hidden;
     flex: 1; /* Neem de resterende breedte in beslag */}
 
